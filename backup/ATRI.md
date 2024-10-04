@@ -1,0 +1,10 @@
+地球，也包括我吗？
+![4](https://github.com/user-attachments/assets/95032c64-1595-4cb7-97b1-9a9ad4cb6d18)
+![1](https://github.com/user-attachments/assets/83fc47dc-d0e7-4d5a-a39c-005494b599e0)
+![2](https://github.com/user-attachments/assets/1a53c5c5-abbb-4b48-a770-4c7ac001b42d)
+![3](https://github.com/user-attachments/assets/b7cf741b-f1e2-406c-97ac-46220c0eca54)
+![9](https://github.com/user-attachments/assets/712a291c-e33c-447e-a828-399170b03d0a))
+![6](https://github.com/user-attachments/assets/9c33a689-7b8b-42e2-92f1-1b6f19006ace)
+![7](https://github.com/user-attachments/assets/09953a0d-574c-4b4b-aa33-da64ab832858)
+![8](https://github.com/user-attachments/assets/5b74cf98-8028-4f63-bbd4-e8f29ccf5bc8)
+![5](https://github.com/user-attachments/assets/24b269d9-5659-46b6-9773-9eade628aca5)
