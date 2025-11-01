@@ -17,11 +17,11 @@ import { LinkPreset } from "./types/config";
 // 移除i18n导入以避免循环依赖
 
 // 定义站点语言
-const SITE_LANG = "en"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
+const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
-	title: "Mizuki",
-	subtitle: "One demo website",
+	title: "疗愈の境",
+	subtitle: "远离世界的喧嚣",
 
 	lang: SITE_LANG,
 
@@ -44,9 +44,9 @@ export const siteConfig: SiteConfig = {
 	// 顶栏标题配置
 	navbarTitle: {
 		// 顶栏标题文本
-		text: "MizukiUI",
+		text: "疗愈の境",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "assets/home/home.png",
+		icon: "https://wkphoto.cdn.bcebos.com/023b5bb5c9ea15cea346665fa6003af33a87b238.jpg",
 	},
 
 	bangumi: {
@@ -60,7 +60,7 @@ export const siteConfig: SiteConfig = {
 	// 文章列表布局配置
 	postListLayout: {
 		// 默认布局模式："list" 列表模式（单列布局），"grid" 网格模式（双列布局）
-		defaultMode: "grid",
+		defaultMode: "list",
 		// 是否允许用户切换布局
 		allowSwitch: true,
 	},
@@ -78,23 +78,10 @@ export const siteConfig: SiteConfig = {
 		src: {
 			desktop: [
 				"/assets/desktop-banner/d1.webp",
-				"/assets/desktop-banner/d2.webp",
-				"/assets/desktop-banner/d3.webp",
-				"/assets/desktop-banner/d4.webp",
-				"/assets/desktop-banner/d5.webp",
-				"/assets/desktop-banner/d6.webp",
-				"/assets/desktop-banner/d7.webp",
-				"/assets/desktop-banner/d8.webp",
+				"https://pic-private.zhihu.com/v2-97c28f3d36265170bf9607aac3b9595f~resize:1440:q75.jpg?source=1f5c5e47&expiration=1762010154&auth_key=1762010154-0-0-e4e3f1c0aaf4967e43162aa6316e54e0&protocol=v2&sampling=False&animatedImagePlayCount=1&overTime=60&incremental=False&sceneCode=article_draft_web&animatedImageAutoPlay=False&retryCount=3&precoder=False",
 			], // 桌面横幅图片
 			mobile: [
 				"/assets/mobile-banner/m1.webp",
-				"/assets/mobile-banner/m2.webp",
-				"/assets/mobile-banner/m3.webp",
-				"/assets/mobile-banner/m4.webp",
-				"/assets/mobile-banner/m5.webp",
-				"/assets/mobile-banner/m6.webp",
-				"/assets/mobile-banner/m7.webp",
-				"/assets/mobile-banner/m8.webp",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -229,22 +216,16 @@ export const navBarConfig: NavBarConfig = {
 			children: [
 				{
 					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					url: "https://github.com/smallgudu",
 					external: true,
 					icon: "fa6-brands:github",
 				},
 				{
 					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					url: "https://space.bilibili.com/1496054034",
 					external: true,
 					icon: "fa6-brands:bilibili",
-				},
-				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
-					external: true,
-					icon: "mdi:git",
-				},
+				}
 			],
 		},
 		{
@@ -350,8 +331,8 @@ export const commentConfig: CommentConfig = {
 };
 
 export const announcementConfig: AnnouncementConfig = {
-	title: "Announcement", // 公告标题
-	content: "Welcome to my blog! This is a sample announcement.", // 公告内容
+	title: "公告", // 公告标题
+	content: "这是新的博客网站", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
