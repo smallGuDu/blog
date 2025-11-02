@@ -46,11 +46,11 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "疗愈の境",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "https://cdn4.winhlb.com/2025/11/02/6906cd7d9c66b.png",
+		icon: "public/assets/home/home.png",
 	},
 
 	bangumi: {
-		userId: "sai", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
+		userId: "1174493", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
 	},
 
 	anime: {
@@ -77,11 +77,10 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/d1.webp",
-				"https://pic-private.zhihu.com/v2-97c28f3d36265170bf9607aac3b9595f~resize:1440:q75.jpg?source=1f5c5e47&expiration=1762010154&auth_key=1762010154-0-0-e4e3f1c0aaf4967e43162aa6316e54e0&protocol=v2&sampling=False&animatedImagePlayCount=1&overTime=60&incremental=False&sceneCode=article_draft_web&animatedImageAutoPlay=False&retryCount=3&precoder=False",
+				"https://picx.zhimg.com/v2-a6e68003f62e0ef2de9a19721ca570d7_r.jpg"
 			], // 桌面横幅图片
 			mobile: [
-				"/assets/mobile-banner/m1.webp",
+				"https://cdn4.winhlb.com/2025/11/02/6906d7526b1a8.jpg",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -123,7 +122,7 @@ export const siteConfig: SiteConfig = {
 
 				speed: 100, // 打字速度（毫秒）
 				deleteSpeed: 50, // 删除速度（毫秒）
-				pauseTime: 2000, // 完全显示后的暂停时间（毫秒）
+				pauseTime: 10000, // 完全显示后的暂停时间（毫秒）
 			},
 		},
 
@@ -233,13 +232,13 @@ export const navBarConfig: NavBarConfig = {
 			url: "/content/",
 			icon: "material-symbols:person",
 			children: [
-				LinkPreset.Anime,
-				LinkPreset.Diary,
-				{
-					name: "Gallery",
-					url: "/albums/",
-					icon: "material-symbols:photo-library",
-				},
+				LinkPreset.Anime
+				// ,LinkPreset.Diary,
+				// {
+				// 	name: "Gallery",
+				// 	url: "/albums/",
+				// 	icon: "material-symbols:photo-library",
+				// },
 			],
 		},
 		{
@@ -253,21 +252,21 @@ export const navBarConfig: NavBarConfig = {
 			url: "#",
 			icon: "material-symbols:more-horiz",
 			children: [
-				{
-					name: "Projects",
-					url: "/projects/",
-					icon: "material-symbols:work",
-				},
+				// {
+				// 	name: "Projects",
+				// 	url: "/projects/",
+				// 	icon: "material-symbols:work",
+				// },
 				{
 					name: "Skills",
 					url: "/skills/",
 					icon: "material-symbols:psychology",
 				},
-				{
-					name: "Timeline",
-					url: "/timeline/",
-					icon: "material-symbols:timeline",
-				},
+				// {
+				// 	name: "Timeline",
+				// 	url: "/timeline/",
+				// 	icon: "material-symbols:timeline",
+				// },
 			],
 		},
 	],
