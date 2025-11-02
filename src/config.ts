@@ -26,7 +26,7 @@ export const siteConfig: SiteConfig = {
 	lang: SITE_LANG,
 
 	themeColor: {
-		hue: 35, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
+		hue: 270, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
 		fixed: false, // 对访问者隐藏主题色选择器
 	},
 
@@ -46,11 +46,11 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "疗愈の境",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "https://wkphoto.cdn.bcebos.com/023b5bb5c9ea15cea346665fa6003af33a87b238.jpg",
+		icon: "https://cdn4.winhlb.com/2025/11/02/6906cd7d9c66b.png",
 	},
 
 	bangumi: {
-		userId: "1174493", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
+		userId: "sai", // 在此处设置你的Bangumi用户ID，可以设置为 "sai" 测试
 	},
 
 	anime: {
@@ -110,13 +110,13 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "Beautiful Mizuki!", // 主页横幅主标题
+			title: "疗愈の境", // 主页横幅主标题
 
 			subtitle: [
-				"A Showcase Demo Site",
-				"Carousel Highlight: Innovation",
-				"Carousel Focus: User Experience",
-				"Carousel Spot: Core Advantages",
+				"与你的相遇，便是奇迹",
+				"愿此行，终抵群星",
+				"唯有那份炫目　未曾忘却。",
+				"无论何时，我都会记得夏天的蓝……",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -274,7 +274,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "https://cdn4.winhlb.com/2025/11/02/6906cd7e1158b.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "Soliar.",
 	bio: "为世界上所有美好而战！",
 	typewriter: {
@@ -496,9 +496,9 @@ export const pioConfig: import("./types/config").PioConfig = {
 			"HENTAI!",
 			"Don't bully me like that!",
 		], // 触摸提示
-		home: "Click here to go back to homepage!", // 首页提示
+		home: "点击这里返回喵~", // 首页提示
 		skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示
-		close: "QWQ See you next time~", // 关闭提示
+		close: "QWQ 下次再见喵~", // 关闭提示
 		link: "https://github.com/matsuzaka-yuki/Mizuki", // 关于链接
 	},
 };
