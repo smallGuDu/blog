@@ -83,9 +83,6 @@ export const siteConfig: SiteConfig = {
 				"https://cdn4.winhlb.com/2025/11/02/6906d7526b1a8.jpg",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
-
-		position: "center", // 等同于 object-position，仅支持 'top', 'center', 'bottom'。默认为 'center'
-
 		carousel: {
 			enable: true, // 为 true 时：为多张图片启用轮播。为 false 时：从数组中随机显示一张图片
 
