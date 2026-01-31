@@ -80,7 +80,7 @@ export const siteConfig: SiteConfig = {
 				"https://picx.zhimg.com/v2-a6e68003f62e0ef2de9a19721ca570d7_r.jpg"
 			], // 桌面横幅图片
 			mobile: [
-				"https://cdn4.winhlb.com/2025/11/02/6906d7526b1a8.jpg",
+				"https://pica.zhimg.com/80/v2-2fe973b74ee5799fa0f79732f4b5ad24_720w.webp",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 		carousel: {
@@ -270,7 +270,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "https://cdn4.winhlb.com/2025/11/02/6906cd7e1158b.png", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "https://avatars.githubusercontent.com/u/158005463?v=4", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "Soliar.",
 	bio: "为世界上所有美好而战！",
 	typewriter: {
