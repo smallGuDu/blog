@@ -12,7 +12,7 @@ pubDate: 2026-02-01
 ---
 # 欢迎来到我的网站~
 
-# 1:[telegram下载](http://blog.soliar.top/posts/telegram "telegram")
+# 1:[telegram下载](https://zhuanlan.zhihu.com/p/13504962320 "telegram")  
 Telegram 是一个以速度和安全为核心的即时通讯应用。它由俄罗斯兄弟帕维尔·杜罗夫和尼古拉·杜罗夫于2013年创立，以其强大的隐私功能、跨平台同步能力和丰富的功能而闻名。
 # 2:[google play(包含google账号注册)](http://blog.soliar.top/posts/googleplay "googleplay")
 Google Play 是运行 Android 操作系统的设备（如手机、平板、电视、手表）的官方应用商店和数字内容分发平台。它由 Google 开发和维护，是 Android 生态系统的核心组成部分。
