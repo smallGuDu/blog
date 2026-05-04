@@ -46,7 +46,7 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "疗愈の境",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "public/assets/home/home.png",
+		icon: "https://blog.soliar.top/favicon/favicon-dark-32.png",
 	},
 
 	bangumi: {
@@ -328,7 +328,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	enable: true, // 启用音乐播放器功能
 	mode: "meting", // 音乐播放器模式，可选 "local" 或 "meting"
 	meting_api:
-		"https://meting-api.civer.cn/api", // Meting API 地址
+		"https://meting-api.civer.cn/api?server=:server&type=:type&id=:id&auth=:auth&r=:r", // Meting API 地址
 	id: "17946372294", // 歌单ID
 	server: "netease", // 音乐源服务器。有的meting的api源支持更多平台,一般来说,netease=网易云音乐, tencent=QQ音乐, kugou=酷狗音乐, xiami=虾米音乐, baidu=百度音乐
 	type: "playlist", // 播单类型
