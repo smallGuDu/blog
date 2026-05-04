@@ -113,6 +113,7 @@ export const siteConfig: SiteConfig = {
 				"愿此行，终抵群星",
 				"唯有那份炫目　未曾忘却。",
 				"无论何时，我都会记得夏天的蓝……",
+				"我想留在大家身边，从过去，一同迈向明天！"
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -167,7 +168,7 @@ export const siteConfig: SiteConfig = {
 	showLastModified: true, // 控制“上次编辑”卡片显示的开关
 };
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
-	enable: true, // 启用全屏壁纸功能,非Banner模式下生效
+	enable: false, // 启用全屏壁纸功能,非Banner模式下生效
 	src: {
 		desktop: [
 			"/assets/desktop-banner/d1.webp",
@@ -270,7 +271,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "https://avatars.githubusercontent.com/u/158005463?v=4", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "http://q1.qlogo.cn/g?b=qq&nk=3591743780&s=100", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "Soliar.",
 	bio: "为世界上所有美好而战！",
 	typewriter: {
