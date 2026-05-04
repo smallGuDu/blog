@@ -271,7 +271,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "http://q1.qlogo.cn/g?b=qq&nk=3591743780&s=100", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "http://q.qlogo.cn/headimg_dl?dst_uin=3591743780&spec=640&img_type=jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "Soliar.",
 	bio: "为世界上所有美好而战！",
 	typewriter: {
@@ -328,7 +328,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	enable: true, // 启用音乐播放器功能
 	mode: "meting", // 音乐播放器模式，可选 "local" 或 "meting"
 	meting_api:
-		"https://www.bilibili.uno/api?server=:server&type=:type&id=:id&auth=:auth&r=:r", // Meting API 地址
+		"https://meting-api.civer.cn/api", // Meting API 地址
 	id: "13241357395", // 歌单ID
 	server: "netease", // 音乐源服务器。有的meting的api源支持更多平台,一般来说,netease=网易云音乐, tencent=QQ音乐, kugou=酷狗音乐, xiami=虾米音乐, baidu=百度音乐
 	type: "playlist", // 播单类型
