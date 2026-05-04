@@ -46,7 +46,7 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "疗愈の境",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "https://blog.soliar.top/favicon/favicon-dark-32.png",
+		icon: "",
 	},
 
 	bangumi: {
