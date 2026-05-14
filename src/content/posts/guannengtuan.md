@@ -2,7 +2,7 @@
 title: 化学主要官能团的性质
 published: 2026-05-14
 pinned: true
-description:官能团 
+description: 官能团 
 tags: []
 category: Examples
 author: Soliar
