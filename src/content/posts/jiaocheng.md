@@ -4,7 +4,7 @@ published: 2026-07-15
 description: 开始互联网生活吧！
 category: 教程
 draft: false
-pinned: teur
+pinned: true
 lang: zh-CN      # 仅当文章语言与 config.ts 中的站点语言不同时设置
 ---
 # 从零开始的互联网生活 —— 互联网指南
